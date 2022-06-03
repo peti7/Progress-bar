@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.progress-bar {
+    width: 300px;
+    height: 10px;
+    background-color: #cac9c9;
+    border-radius: 10px;
+}
+
+.progress-bar .progress {
+    width: 0;
+    height: inherit;
+    border-radius: inherit;
+    background-color: #8585f5;
+}
+
+.progress-bar span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+    color: #fff;
+    font-weight: 500;
+}
